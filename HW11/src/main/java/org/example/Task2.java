@@ -14,9 +14,4 @@ public class Task2 {
                 .collect(Collectors.joining(", "));
 
     }
-
-    public static void main(String[] args) {
-        List<String> names = Arrays.asList("John", "Bill","Ryan","Max","Bryan","David");
-        System.out.println(task2(names));
-    }
 }

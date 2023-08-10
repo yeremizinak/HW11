@@ -17,6 +17,4 @@ public class Task4Test {
                 .collect(Collectors.toList());
     }
 
-
-
 }

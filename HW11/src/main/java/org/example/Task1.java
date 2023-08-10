@@ -12,11 +12,4 @@ public class Task1 {
                 .mapToObj(i -> (i + 1) + ". " + names.get(i))
                 .collect(Collectors.joining(", "));
     }
-
-    public static void main(String[] args) {
-        List<String> names = Arrays.asList("John", "Bill", "Ryan", "Max", "Bryan", "David");
-        System.out.println(odd(names));
-        System.out.println(Task2.task2(names));
-
-    }
 }
